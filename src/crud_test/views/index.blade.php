@@ -1,0 +1,38 @@
+@extends('layouts.app')
+@section('content')
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-6">
+
+                 @include('message.alerts')
+
+            </div>
+
+            <div class="col-md-12">
+
+                @widget('CustomersOfList')
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+@endsection
